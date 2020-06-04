@@ -36,7 +36,7 @@ jobs:
     - name: installing surge
       run: npm install --global surge
       
-    - name: depolying surge
+    - name: depolying on surge
       run: surge ./build http://react-class2.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
        
 
